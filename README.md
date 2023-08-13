@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ### How to use the script
 - Step 1
 ```
-Open a new project in PyCharm Enabling Inherit global site-packages
+Create a new project in PyCharm Enabling Inherit global site-packages
 ```
 ![image](https://github.com/Edinbo/LightshotScraper/assets/121829291/37148912-4e27-477d-b5b5-44491ca2a9d3)
 - Step 2
@@ -25,4 +25,6 @@ pip install pysocks
 pip install beautifulsoup4
 pip install lxml
 
+Install these pips.
 ```
+Now execute the script to generate links
