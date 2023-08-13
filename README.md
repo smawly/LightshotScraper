@@ -1,4 +1,4 @@
-# Lightshot ss-Scraper
+# Lightshot Scraper
 #### I am not responsible for sensitive information that may be leaked with this script.
 With this script you can scrape screen captures from lightshot
 
