@@ -27,4 +27,6 @@ pip install lxml
 
 Install these pips.
 ```
-Now execute the script to generate links
+- Step 3
+[Scraper.py](https://github.com/Edinbo/LightshotScraper/blob/main/Scraper.py)
+Now execute the script to Pycharm to start generating links
