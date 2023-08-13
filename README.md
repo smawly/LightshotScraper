@@ -9,12 +9,20 @@ With this script you can scrape screen captures from lightshot
 ```
 pip install -r requirements.txt
 ```
+
+
 ### How to use the script
-- Without proxies
+- Step 1
 ```
-python3 main.py <number of captures you want to scrape> 
+Open a new project in PyCharm Enabling Inherit global site-packages
 ```
-- With proxies (specify the proxy file as argument is optional)
+![image](https://github.com/Edinbo/LightshotScraper/assets/121829291/37148912-4e27-477d-b5b5-44491ca2a9d3)
+- Step 2
 ```
-python3 main.py <number of captures you want to scrape> -proxy <csv file>
+pip install requests
+pip install python-csv
+pip install pysocks
+pip install beautifulsoup4
+pip install lxml
+
 ```
