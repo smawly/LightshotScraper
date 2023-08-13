@@ -6,8 +6,8 @@ import time
 
 def generate_random_part():
     characters = string.ascii_lowercase + string.digits
-    random_part = ''.join(random.choice(characters) for _ in range(6))
-    return random_part
+    return  ''.join(random.choice(characters) for _ in range(6))
+    
 
 def check_screenshot(url):
     headers = {
@@ -19,8 +19,7 @@ def check_screenshot(url):
         soup = BeautifulSoup(html_code, 'html.parser')
         img_tag = soup.find('img', id='screenshot-image')
 
-        if img_tag:
-            src = img_tag.get('src')
+        if img_tag == src:
             expected_src = "/html/body/div[3]/div/img//st.prntscr.com/2023/07/24/0635/img/0_173a7b_211be8ff.png"
             if src and expected_src in src:
                 return True, src
